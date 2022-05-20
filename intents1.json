@@ -1,0 +1,51 @@
+{"intents": [
+        {"tag": "salutation",
+         "patterns": ["Salut", "Comment allez-vous", "Est-ce qu'il y a quelqu'un ?", "Bonjour"],
+         "responses": ["Bonjour, merci de votre visite ", "Content de vous revoir", "Salut, comment puis-je vous aider","Bienvenue dans notre association UTAIM EL JEM"],
+         "context_set": ""
+        },
+        {"tag": "Au revoir",
+         "patterns": ["Au revoir", "A plus tard"],
+         "responses": ["A plus tard, merci de votre visite", "Bonne journée", "Bye! Revenez bientôt."]
+        },
+        {"tag": "Merci",
+         "patterns": ["Merci", "C'est utile"],
+         "responses": ["Heureux de vous aider !", "À tout moment !", "Mon plaisir"]
+        },
+        {"tag": "heures",
+         "patterns": ["Quelles sont vos heures d'ouverture ?", "Quand êtes-vous ouvert ?" ,""],
+         "responses": ["Nous sommes ouverts du lundi au vendredi de 8h à 13h", "Nos horaires sont de 8h à 13h du lundi au vendredi",
+                "Du lundi au jeudi premier cours 8:00 ---- 11:00 Engagement"
+                                                       ]
+        },
+        {"tag": "Vacances ",
+         "patterns": ["Quels sont les dates de vacances ? ", "Quand sera les vacances ?","Quand sera les  Fêtes? "],
+         "responses": ["on a les vacances d 'hiver,printemps et d'étè","on a les vacances en Decembre,Mars et du juin jusqu'à Septembtre","on a les Fêtes religieuses, annuelles"]
+        },
+        
+        {"tag": "admissions",
+         "patterns": ["Comment s'inscrire à l'association?", "Quels sont les procédures d 'acceptation ?", "Comment s'inscrire ?"],
+         "responses": ["L'âge de l'élève doit être compris entre 05 et 30 ans, et il doit avoir un handicap mental (léger/modéré/profond) et être capable de marcher", 
+                "L'acceptation se fait à la demande du tuteur de l'élève accompagnée de : 1 acte de naissance, 3 photographies, 3 copies de la carte d'invalidité, 3 copies de la carte de soins du tuteur, 1 copie de la carte d'identité du tuteur, bornage connu, un dossier médical, si disponible, une copie du carnet de vaccination. Après étude du dossier par la commission d'admission, il est orienté vers l'une des structures pédagogiques adaptées à sa vie privée"]
+        },
+        {"tag": "l'association",
+         "patterns": [" Quels sont les Missions de l'association ?", "Quels sont les objectifs de l'association?", "Quel est le but de l'association?" ],
+         "responses": ["Soins médicaux et paramédicaux","services sociaux", "Séance d'information psychologique",
+         "Services pédagogiques et éducatifs",
+         "Qualification et formation professionnelle",
+          "activités sportives.","Donner au bénéficiaire le plus d'autonomie possible à tous les niveaux",
+          "Soutenir l'intégration scolaire et fournir des services d'accompagnement appropriés",
+          "Offrir des services d'éducation spécialisée et de réadaptation",
+          "Formation et réadaptation professionnelle des personnes handicapées",
+          "Soutenir les possibilités d'emploi pour les personnes handicapées"]
+        
+        },
+        {"tag": "gage",
+         "patterns": [" Quelle est la Nature et l' organisation des activités de l'association?"],
+         "responses": ["Vie quotidienne :  Réception " ,"Garantie pédagogique dans les départements",
+         "Garantie professionnelle dans les ateliers pour les stagiaires professionnels",
+         "Deux pauses : 20 minutes le matin", "Activités médicales et paramédicales","Activités éducatives, éducatives, de formation professionnelle"]
+        
+        }
+   ]
+}
